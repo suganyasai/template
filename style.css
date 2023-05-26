@@ -1,0 +1,280 @@
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+
+}
+.preheader{
+    height: 150px;
+    background-color: snow;
+}
+.sociallink{
+    position: absolute;
+    left: 105px;
+    top: 40px;
+}
+.logo{
+    position: absolute;
+    left: 40%;
+    top: 35px;
+}
+.search{
+    position: absolute;
+    right: 160px;
+    top: 40px;
+
+}
+.fa-brands{
+    font-weight: 400;
+    margin-top: 17px;
+    margin-left: 17px;
+    font-size: 17px;
+
+}
+.solicalicons{
+    background: rgba(0, 0, 0, 0.05);
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.solicalicons:hover{
+    background: #4e9525;
+    color: whitesmoke;
+}
+.companyname::after{
+    content: "Care";
+    color:#4e9525;
+}
+.companyname{
+   
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.searchbox{
+    padding: 6px 12px 6px 16px;
+    width: 250px;
+    border: 0;
+    background: rgba(0, 0, 0, 0.05);;
+    color: rgba(0, 0, 0, 0.7) ;
+    font-size: 14px;
+    height: 50px ;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.fa-solid{
+    font-weight: 900;
+    font-size: 20px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: snow;
+    
+}
+.searchicon{
+    position: absolute;
+    right: 0px;
+    background:#4e9525;
+    width: 50;
+    height: 50;
+    display: inline-block;
+    border-radius: 30px;
+}
+.header{
+    background:#4e9525;
+    height: 75px;
+
+}
+.pages{
+    
+    margin-left: 28%;
+    padding-top: 25px;
+}
+.iteams{
+    display: inline-block;
+    padding-right: 30px;
+}
+.iname{
+    text-decoration: none;
+    font-size: 14px;
+    color: snow;
+    font-weight: bold;
+    letter-spacing: 1.5;
+    cursor: pointer;
+}
+.iname:hover{
+    color: yellow;
+}
+.banner{
+    background-image: url(bg_1.jpg.webp);
+    height: 100%;
+    background-repeat:no-repeat ;
+    background-color: #4e9525;
+}
+.banner-info{
+    position: absolute;
+    top: 450px;
+    left: 250px;
+    width: 450px;
+}
+.subheading{
+    font-size: 15px;
+    color: #fbd341;
+    font-weight: 800;
+}
+.banner-info h1{
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.banner-info p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+}
+.banner-btn{
+    background: #4e9525;
+    border: 6px solid #4e9525;
+    color: #fff;
+    text-decoration: none;
+    
+    display: inline-block;
+    height: 40px;
+    width: 140px;
+    padding-top: 1px;
+    padding-left: 20px;
+    margin-top: 11px;
+    border-radius: 5px;
+}
+.services{
+ height: 500px;
+ background: #fff;
+ padding-left:70px;
+}
+.services-box{
+    /* background-color: burlywood; */
+    display: inline-block;
+    height: 315px;
+    width: 210px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+transition: width 2s,height 4s;
+}
+/* .faservice{
+    font-size: 40px;
+    position: absolute;
+    left: 86px;
+    top: 40px;
+    color: #4e9525;
+} */
+.services-icon{
+    background-color: whitesmoke;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+ /* margin-top: 20px;
+margin-left: 69px;  */
+    font-size: 35px;
+    padding-left: 0px;
+    padding-top:23px ;
+    color: #4e9525;
+}
+.services-icon:hover{
+background-color: #4e9525;
+color:#fbd341;
+font-size: 40px;
+    padding-left: 0px;
+    padding-top:20px ;
+    transition: 2s ease-in;
+    
+
+
+}
+.services-icon:hover .services-more
+{
+    opacity: 1;
+}
+/* .faservice:hover{
+   
+} */
+.services-box h4{
+    margin: 8px;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: rgb(0,0,0,0.8);
+}
+.services-box p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    color: gray;
+}
+.services-more{
+    display: inline-block;
+    height: 55;
+    width: 55;
+    border-radius: 40px;
+    background-color: #4e9525;
+    position: absolute;
+    left: 75px;
+    top: 300px;
+    opacity: 0;
+
+}
+.faforward{
+    position: relative;
+    left: 1px;
+    top: 17px;
+    color:snow;
+}
+.services-box:hover{
+    
+    height: 31px;
+    width: 190px;
+}
+.service-info{
+    width: 400px;
+    position: absolute;
+    right: 18px;
+    top: 155%;
+
+}
+.subheading{
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #4e9525;
+}
+.sub_2{
+    
+        font-size: 28px;
+    }
+.service-info p{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: gray;
+    padding-bottom: 20px;
+}
+.btn-q{
+    background: #4e9525;
+    border: 1px solid #4e9525;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
